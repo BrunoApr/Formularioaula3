@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 10px;
+    color: rgb(161, 64, 64);
+}
+body{
+    font-family: Verdana, Geneva, sans-serif;
+    background-color: #f0b4b4;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+header{
+    background-color: blue;
+    color: blueviolet;
+    padding: 2PX;
+    text-align: center;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 30px;
+
+}
+
+form{
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 5px 5px rgb(0, 0, 0, 0.6);
+    width: 280px;
+}
+form label{
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;    
+}
+form input{
+    width: 90%;
+    padding: 15px;
+    margin-bottom: 15px;
+    margin: 1px solid #ccc;
+}
+
+form input:focus{
+    border-color: blue;
+
+}
+
+input{
+    width: 90%;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 10px;
+    border: 1px solid #0a0707;
+    font: 300px;
+}
+
+button{
+    width: 97%;
+    padding: 10px;
+    background-color: aqua;
+    border: none;
+    color: rgb(255, 3, 3);
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: crimson;
+    color: violet;
+}
+footer{
+    padding: 100px;
+    text-align: center;
+}
+
+#mensagem{
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: blue;
+    text-align: center;
+}
